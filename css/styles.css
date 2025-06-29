@@ -2,9 +2,37 @@ body {
   font-family: Roboto, sans-serif;
   color: #434455;
   font-size: 16px;
+  background-color: #ffffff;
 }
 header {
   background-color: #ffffff;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio2 {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 ul {
   list-style-type: none;
@@ -12,9 +40,14 @@ ul {
 a {
   text-decoration: none;
 }
+.adr {
+  font-style: normal;
+}
 .contact {
-  color: #2e2f42;
-  font-size: 12px;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contact:hover,
 .contact:focus {
@@ -25,29 +58,50 @@ a {
   text-decoration: underline;
 }
 .link {
-  color: #434455;
-  font-size: 12px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
   color: #404bbf;
 }
-h1 {
+.order_h {
   font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-h2 {
-  font-size: 36px;
+.head_3 {
   color: #2e2f42;
-}
-h3 {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   font-size: 20px;
 }
-button {
+.paragraf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.head_2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.ord_serv {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-button:hover {
+.ord_serv:hover,
+.ord_serv:focus {
   background-color: #404bbf;
 }
 .order {
@@ -57,10 +111,11 @@ button:hover {
 .team {
   background-color: #f4f4fd;
 }
-footer {
+.foot {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-.logo {
-  color: #4d5ae5;
+.foot_par {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
