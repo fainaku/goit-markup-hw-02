@@ -1,0 +1,66 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  font-size: 16px;
+}
+header {
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.contact {
+  color: #2e2f42;
+  font-size: 12px;
+}
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+.link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.link {
+  color: #434455;
+  font-size: 12px;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 36px;
+  color: #2e2f42;
+}
+h3 {
+  font-size: 20px;
+}
+button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #404bbf;
+}
+.order {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.team {
+  background-color: #f4f4fd;
+}
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+.logo {
+  color: #4d5ae5;
+}
