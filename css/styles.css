@@ -74,7 +74,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
 }
-.head_3 {
+.info .head_3 {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
@@ -85,12 +85,46 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.head_2 {
+.info .head_2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
+}
+.team .head_2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team .head_3 {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+}
+
+.portfolio .head_2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio .head_3 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .ord_serv {
   background-color: #4d5ae5;
@@ -111,6 +145,10 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team .list_img {
+  background-color: #ffffff;
+}
+
 .foot {
   background-color: #2e2f42;
   color: #f4f4fd;
