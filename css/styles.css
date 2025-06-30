@@ -74,7 +74,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
 }
-.info .head_3 {
+.info .list_item_title {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
@@ -85,7 +85,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.info .head_2 {
+.info .section_title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -93,7 +93,7 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team .head_2 {
+.team .section_title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -101,7 +101,7 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team .head_3 {
+.team .list_item_title {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
@@ -109,7 +109,7 @@ a {
   font-size: 20px;
 }
 
-.portfolio .head_2 {
+.portfolio .section_title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -118,7 +118,7 @@ a {
   color: #2e2f42;
 }
 
-.portfolio .head_3 {
+.portfolio .list_item_title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
